@@ -18,6 +18,8 @@ import "../../../css/body/div__contenedorSobreMi/div__contenedorCardSobreMi/div_
 import "../../../css/body/div__contenedorSobreMi/div__pasatiempos/div__pasatiemposContenedor/div__pasatiemposContenedor.css";
 import "../../../css/body/div__contenedorSobreMi/div__pasatiempos/div__tituloPasatiempos/div__tituloPasatiempos.css";
 
+import "../../../css/responsive.css";
+
 function Parrafo({ valor }) {
   return <p>{valor}</p>;
 }
@@ -41,8 +43,11 @@ export default function SobreMi() {
   let parrafoPasatiempos = ["videjuegos", "leer", "musica"];
 
   return (
-    <div id="sobremi" className="div__contenedorSobreMi">
-      <div className="div__contenedorCardSobreMi">
+    <div
+      id="sobremi"
+      className="div__contenedorSobreMi div__contenedorSobreMiRes"
+    >
+      <div className="div__contenedorCardSobreMi div__contenedorCardSobreMiRes">
         <div className="div__imgSobreMi">
           <img src={imgNutria} />
         </div>
