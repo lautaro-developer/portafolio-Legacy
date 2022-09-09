@@ -8,14 +8,14 @@ import "../../css/header/li_sobreMi/li_sobreMi.css";
 import "../../css/header/li__nombre/li__nombre.css";
 import "../../css/header/Header/Header.css";
 import "../../css/btn/Btn.css";
-import "../../css/responsive.css"
+import "../../css/responsive.css";
 
+export let Valor = ["Inicio", "Proyectos", "Sobre mi", "Lenguajes"];
 
 function SobreMi() {
-  let valor = ["Inicio", "Proyectos", "Sobre mi", "Lenguajes"];
   return (
     <div className="sobreMi">
-      {valor.map((e) => {
+      {Valor.map((e) => {
         let link = e.split(" ").join("").toLowerCase();
         return <Enlace valor={e} id={link} href={`#${link}`} />;
       })}

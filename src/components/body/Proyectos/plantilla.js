@@ -13,6 +13,8 @@ import "../../../css/body/div__contenedor/div__btnProyecto/button__btn/button__b
 import "../../../css/body/div__contenedor/div__btnProyecto/button__btn/demo.css";
 import "../../../css/body/div__contenedor/div__btnProyecto/button__btn/github.css";
 
+import "../../../css/responsive.css"
+
 export default function ProyectoPlantilla({ titulo, descripcion, img, alt }) {
   const gitHubIcon = <FontAwesomeIcon icon={faGithub} />;
   const desktopIcon = <FontAwesomeIcon icon={faDesktop} />;

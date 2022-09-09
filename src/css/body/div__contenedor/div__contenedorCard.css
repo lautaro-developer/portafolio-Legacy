@@ -1,6 +1,5 @@
 .div__contenedorCard {
   display: flex;
   justify-content: space-around;
-
   margin: 5% 0;
 }
