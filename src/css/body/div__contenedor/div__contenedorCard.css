@@ -1,16 +1,17 @@
 .div__contenedorCard {
   display: flex;
   justify-content: space-around;
-  margin: 5% 0;
+  margin-top: 7%;
 }
 
 @media screen and (max-width: 800px) {
   .div__contenedorCard {
     display: flex;
-    margin: 5% 0;
+    margin: 16% 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 40px;
   }
 
   .div__contenedor {

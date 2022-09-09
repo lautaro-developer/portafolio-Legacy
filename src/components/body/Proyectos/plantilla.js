@@ -3,6 +3,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { Parrafo } from "../../Parrafo/Parrafo";
+
 import "../../../css/body/div__contenedor/div__contenedor.css";
 import "../../../css/body/div__contenedor/div__img/img.css";
 import "../../../css/body/div__contenedor/div__titulo/div__titulo.css";
@@ -13,9 +15,14 @@ import "../../../css/body/div__contenedor/div__btnProyecto/button__btn/button__b
 import "../../../css/body/div__contenedor/div__btnProyecto/button__btn/demo.css";
 import "../../../css/body/div__contenedor/div__btnProyecto/button__btn/github.css";
 
-import "../../../css/responsive.css"
-
-export default function ProyectoPlantilla({ titulo, descripcion, img, alt }) {
+export default function ProyectoPlantilla({
+  titulo,
+  descripcion,
+  img,
+  alt,
+  gh,
+  dm,
+}) {
   const gitHubIcon = <FontAwesomeIcon icon={faGithub} />;
   const desktopIcon = <FontAwesomeIcon icon={faDesktop} />;
 
@@ -28,11 +35,21 @@ export default function ProyectoPlantilla({ titulo, descripcion, img, alt }) {
         <h2>{titulo}</h2>
       </div>
       <div className="div__descripcion">
-        <p>{descripcion}</p>
+        <Parrafo valor={descripcion}/>
       </div>
       <div className="div__btnProyecto">
-        <Btn i={gitHubIcon} className="button__btn github" titulo="Repo" />
-        <Btn i={desktopIcon} className="button__btn demo" titulo="Demo" />
+        <Btn
+          i={gitHubIcon}
+          className="button__btn github"
+          titulo="Repo"
+          href={gh}
+        />
+        <Btn
+          i={desktopIcon}
+          className="button__btn demo"
+          titulo="Demo"
+          href={dm}
+        />
       </div>
     </div>
   );

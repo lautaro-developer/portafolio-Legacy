@@ -1,7 +1,14 @@
 .div__contenedorSobreMi {
-  margin: 5% 0;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 5% 0;
+}
+
+@media screen and (max-width: 800px) {
+  .div__contenedorSobreMi {
+    height: auto;
+  }
 }

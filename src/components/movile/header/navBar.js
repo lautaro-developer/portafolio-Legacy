@@ -6,7 +6,7 @@ export const NavbarWrapper = styled.div`
   align-items: center;
   background: transparent;
   position: fixed;
-  top: 5vh;
+  top: 15vh;
   right: ${(props) => (props.open ? "0" : "-100%")};
   width: 100%;
   height: 90vh;

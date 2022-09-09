@@ -6,6 +6,8 @@ let titulo;
 let descripcion;
 let alt;
 let img;
+let gh;
+let dm;
 
 export default function proyectos() {
   return (
@@ -21,6 +23,8 @@ function Proyecto1() {
   descripcion = `Pagina diseñada para el curso de Alura Latam. Este cuenta con guardado en localStorage pero no es visible al usuario`;
   alt = "Pag tienda Virtual";
   img = imgTiendaVirtual;
+  gh = "https://github.com/lautaro-developer";
+  dm = "https://google.com/";
 
   return (
     <ProyectoPlantilla
@@ -28,6 +32,8 @@ function Proyecto1() {
       descripcion={descripcion}
       alt={alt}
       img={img}
+      gh={gh}
+      dm={dm}
     />
   );
 }
@@ -38,12 +44,17 @@ function Proyecto2() {
     "App para guardar sus notas por fecha, Este es un proyecto echo por un curso de Aluta Latam, hace uso de localStorage para guardar la informacion";
   img = imgTodoList;
   alt = "Pag TodoList";
+  gh = "https://github.com/lautaro-developer";
+  dm = "https://google.com/";
+
   return (
     <ProyectoPlantilla
       titulo={titulo}
       descripcion={descripcion}
       alt={alt}
       img={img}
+      gh={gh}
+      dm={dm}
     />
   );
 }

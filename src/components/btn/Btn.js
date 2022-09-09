@@ -1,3 +1,8 @@
-export function Btn({ className, titulo, i }) {
-  return <button className={className}> {i} {titulo}</button>;
+export function Btn({ className, titulo, i, href }) {
+  return (
+    <a href={href} className={className}>
+      {" "}
+      {i} {titulo}
+    </a>
+  );
 }

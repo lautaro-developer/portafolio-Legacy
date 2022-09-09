@@ -1,4 +1,4 @@
-.div__pasatiemposContenedor {
+.div__pasatiemposContenedorIcon {
   display: flex;
   gap: 40px;
   padding: 10px;
@@ -7,6 +7,6 @@
   border-radius: 5px;
 }
 
-.div__pasatiemposContenedor > div {
+.div__pasatiemposContenedorIcon > div {
   text-align: center;
 }
