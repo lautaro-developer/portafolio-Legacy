@@ -1,0 +1,6 @@
+.div__contenedorCardSobreMi {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+  justify-content: center;
+}
