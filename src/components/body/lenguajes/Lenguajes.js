@@ -12,8 +12,6 @@ import "../../css/body/div__lenguajes/div__iconContenedor/div__iconContenedor.cs
 import "../../css/body/div__lenguajes/div__lenguajesIcons/div.css";
 import "../../css/body/div__lenguajes/div__lenguajesIcons/div__lenguajesIcons.css";
 import "../../css/body/div__lenguajes/div__tituloLenguajes/div__tituloLenguajes.css";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Icons } from "../sobreMi/SobreMi";
 
 export default function Lenguajes() {

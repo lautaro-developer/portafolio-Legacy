@@ -16,3 +16,14 @@ body {
   background-color: rgb(31, 31, 31);
   color: #fff;
 }
+
+body::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+  padding: 2px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  border-radius: 100px ;
+  background-color: rgb(110, 110, 110);
+}
