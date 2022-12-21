@@ -5,11 +5,14 @@
   text-decoration: none;
   font-style: none;
   list-style: none;
-  font-family: monospace;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: rgb(31, 31, 31);
-  padding: 10px;
   color: #fff;
 }

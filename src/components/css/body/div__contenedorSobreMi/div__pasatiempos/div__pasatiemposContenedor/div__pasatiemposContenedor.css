@@ -1,0 +1,12 @@
+.div__pasatiemposContenedor {
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+  background: rgba(94, 94, 94, 0.536);
+
+  border-radius: 5px;
+}
+
+.div__pasatiemposContenedor > div {
+  text-align: center;
+}
