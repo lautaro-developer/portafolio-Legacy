@@ -1,4 +1,6 @@
 import "../css/base.css";
+import "../css/responsive.css";
+
 import Header from "./header/Header";
 import ProyectoPlantilla from "./body/Proyectos/proyectos";
 import SobreMi from "./body/sobreMi/SobreMi";

@@ -14,11 +14,11 @@ import "../../../css/body/div__contenedorSobreMi/div__contenedorSobreMi.css";
 import "../../../css/body/div__contenedorSobreMi/div__contenedorCardSobreMi/div__descripcionSobreMi/div__descripcionSobreMi.css";
 
 import "../../../css/body/div__contenedorSobreMi/div__contenedorCardSobreMi/div__presentarce.css";
-
 import "../../../css/body/div__contenedorSobreMi/div__pasatiempos/div__pasatiemposContenedor/div__pasatiemposContenedor.css";
-import "../../../css/body/div__contenedorSobreMi/div__pasatiempos/div__tituloPasatiempos/div__tituloPasatiempos.css";
 
-import "../../../css/responsive.css";
+import "../../../css/body/div__contenedorSobreMi/div__pasatiempos/div__tituloPasatiempos/div__tituloPasatiempos.css";
+import "../../../css/body/div__contenedorSobreMi/div__contenedorCardSobreMi/div__imgSobreMi/div__imgSobreMi.css"
+
 
 function Parrafo({ valor }) {
   return <p>{valor}</p>;

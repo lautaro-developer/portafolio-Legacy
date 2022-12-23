@@ -7,12 +7,14 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
-import "../../../css/responsive.css";
 import "../../../css/body/div__lenguajes/div__lenguajes.css";
 import "../../../css/body/div__lenguajes/div__iconContenedor/div__iconContenedor.css";
+
 import "../../../css/body/div__lenguajes/div__lenguajesIcons/div.css";
 import "../../../css/body/div__lenguajes/div__lenguajesIcons/div__lenguajesIcons.css";
+
 import "../../../css/body/div__lenguajes/div__tituloLenguajes/div__tituloLenguajes.css";
+import "../../../css/responsive.css";
 
 import { Icons } from "../sobreMi/SobreMi";
 
