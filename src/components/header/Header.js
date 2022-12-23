@@ -10,7 +10,7 @@ import "../../css/header/Header/Header.css";
 import "../../css/btn/Btn.css";
 import "../../css/responsive.css";
 
-export let Valor = ["Inicio", "Proyectos", "Sobre mi", "Lenguajes"];
+let Valor = ["Inicio", "Proyectos", "Sobre mi", "Lenguajes"];
 
 function SobreMi() {
   return (
