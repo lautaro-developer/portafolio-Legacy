@@ -1,6 +1,7 @@
 {
   "name": "midu",
   "version": "0.1.0",
+  "homepage": "https://github.com/lautaro-developer/portafolio/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build -r https://$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@github.com/lautaro-developer/portafolio/"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "gh-pages": "^4.0.0"
   }
 }
