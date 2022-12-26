@@ -4,6 +4,7 @@ import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { Parrafo } from "../../Parrafo/Parrafo";
+import { Enlace } from "../../enlaces/a";
 
 import "../../../css/body/div__contenedor/div__contenedor.css";
 import "../../../css/body/div__contenedor/div__img/img.css";
