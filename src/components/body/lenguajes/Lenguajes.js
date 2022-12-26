@@ -2,8 +2,6 @@ import {
   faHtml5,
   faCss3,
   faJsSquare,
-  faNodeJs,
-  faLinux,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -19,7 +17,7 @@ import "../../../css/body/div__lenguajes/div__tituloLenguajes/div__tituloLenguaj
 import "../../../css/responsive.css";
 
 export default function Lenguajes() {
-  let lenguajes = [faHtml5, faCss3, faJsSquare, faNodeJs, faLinux, faReact];
+  let lenguajes = [faHtml5, faCss3, faJsSquare, faReact];
 
   return (
     <div id="lenguajes" className="div__lenguajes">
