@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
 .sobreMi {
   display: flex;
   gap: 20px;
   justify-content: end;
   align-items: center;
+}
+
+.sobreMi > a {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .sobreMi > a {
