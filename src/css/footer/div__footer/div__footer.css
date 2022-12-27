@@ -1,0 +1,19 @@
+.div__footer {
+  padding: 10px;
+}
+
+.div__footer > p {
+  font-size: 17px;
+}
+
+.div__footer > p > a  {
+  filter: opacity(70%);
+  border-bottom: 1px solid;
+  color: #ffffff;
+
+  transition: 500ms ease all;
+}
+
+.div__footer > p > a:hover  {
+  filter: opacity(100%);
+}
