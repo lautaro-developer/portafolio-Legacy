@@ -23,26 +23,25 @@ import "../../../css/body/div__contenedorSobreMi/div__contenedorCardSobreMi/div_
 import "../../../css/body/div__contenedorSobreMi/div__contenedorPasatiempos/div__contenedorPasatiempos.css";
 import "../../../css/body/div__contenedorSobreMi/div__pasatiempos/div__pasatiempos.css";
 
-
-let PasatiemposIcons = () => {
+function PasatiemposIcons() {
   let pasatiempos = [faGamepad, faBook, faHeadphonesSimple];
 
   return pasatiempos.map((i) => {
     return (
       <div>
-        <Icons icons={i} size="2x" />
+        <Icons icons={i} size="2x" key={i}/>
       </div>
     );
   });
-};
+}
 
-let PasatiemposParrafos = () => {
+function PasatiemposParrafos() {
   let parrafoPasatiempos = ["videjuegos", "leer", "musica"];
 
   return parrafoPasatiempos.map((v) => <Parrafo valor={v} />);
-};
+}
 
-let SobreMiBase = () => {
+function SobreMiBase() {
   let estudie =
     "Estudie de manera autodidacta sosteniendome de recursos gratis en internet.";
 
@@ -60,7 +59,7 @@ let SobreMiBase = () => {
       </div>
     );
   });
-};
+}
 
 export default function SobreMi() {
   return (

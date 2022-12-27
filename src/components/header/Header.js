@@ -1,4 +1,3 @@
-import { Btn } from "../btn/Btn";
 import { Li } from "../Li/Li";
 import { Enlace } from "../enlaces/a";
 import { Ul } from "../Ul/Ul";
@@ -37,7 +36,6 @@ export default function Header() {
                     <Id Enlace={Enlace} Valor={Sesiones} estilos="sobreMi" />
                     <Btn2 click={click} open={open} />
                     <Navbar open={open} />
-                    <Btn className="btn" titulo="Hablemos" />
                   </div>
                 }
               />
