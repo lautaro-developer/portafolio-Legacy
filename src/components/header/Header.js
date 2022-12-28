@@ -14,7 +14,7 @@ import "../../css/header/Header/Header.css";
 import "../../css/btn/Btn.css";
 import Navbar from "../movile/header/a";
 
-export default function Header() {
+export default function Header({accion, valor}) {
   const [open, setOpen] = useState(false);
 
   const click = () => {
@@ -28,6 +28,7 @@ export default function Header() {
           estilos="lista"
           valor={
             <div>
+              <button onClick={accion}>{valor}</button>
               <Li estilo="li__nombre" valor="Alonso Diaz Ruben Lautaro" />
               <Li
                 estilo="li_sobreMi"

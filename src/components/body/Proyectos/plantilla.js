@@ -22,31 +22,32 @@ export default function ProyectoPlantilla({
   alt,
   gh,
   dm,
+  theme,
 }) {
   const gitHubIcon = <FontAwesomeIcon icon={faGithub} />;
   const desktopIcon = <FontAwesomeIcon icon={faDesktop} />;
 
   return (
-    <div className="div__contenedor">
+    <div className={`div__contenedor ${theme}`}>
       <div className="div__img">
         <img src={img} alt={alt} />
       </div>
-      <div className="div__titulo">
+      <div className={`div__titulo ${theme}`}>
         <h2>{titulo}</h2>
       </div>
-      <div className="div__descripcion">
-        <Parrafo valor={descripcion}/>
+      <div className={`div__descripcion ${theme}`}>
+        <Parrafo valor={descripcion} />
       </div>
       <div className="div__btnProyecto">
         <Btn
           i={gitHubIcon}
-          className="button__btn github"
+          className={`button__btn github ${theme}`}
           titulo="Repo"
           href={gh}
         />
         <Btn
           i={desktopIcon}
-          className="button__btn demo"
+          className={`button__btn demo ${theme}`}
           titulo="Demo"
           href={dm}
         />

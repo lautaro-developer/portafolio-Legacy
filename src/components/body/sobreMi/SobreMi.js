@@ -29,7 +29,7 @@ function PasatiemposIcons() {
   return pasatiempos.map((i) => {
     return (
       <div>
-        <Icons icons={i} size="2x" key={i}/>
+        <Icons icons={i} size="2x" key={i} />
       </div>
     );
   });
@@ -41,7 +41,7 @@ function PasatiemposParrafos() {
   return parrafoPasatiempos.map((v) => <Parrafo valor={v} />);
 }
 
-function SobreMiBase() {
+function SobreMiBase({ theme }) {
   let estudie =
     "Estudie de manera autodidacta sosteniendome de recursos gratis en internet.";
 
@@ -54,14 +54,14 @@ function SobreMiBase() {
 
   return sobreMi.map((i) => {
     return (
-      <div key={i} className="div__descripcion">
+      <div key={i} className={`div__descripcion ${theme}`}>
         <Parrafo valor={i} />
       </div>
     );
   });
 }
 
-export default function SobreMi() {
+export default function SobreMi({ theme }) {
   return (
     <div className="div__contenedorSobreMi" id="sobremi">
       <div className="div__contenedorCardSobreMi">
@@ -75,20 +75,20 @@ export default function SobreMi() {
             <p>Desarrollador web Front-End</p>
           </div>
 
-          <div className="div__descripcionSobreMi">
-            <SobreMiBase />
+          <div className={`div__descripcionSobreMi`}>
+            <SobreMiBase theme={theme}/>
           </div>
         </div>
       </div>
       <div className="div__pasatiempos">
-        <div className="div__tituloLenguajes">
+        <div className={`div__tituloLenguajes ${theme}`}>
           <h2>Pasatiempos</h2>
         </div>
         <div className="div__contenedorPasatiempos">
-          <div className="div__lenguajesIcons">
+          <div className={`div__lenguajesIcons ${theme}`}>
             <PasatiemposIcons />
           </div>
-          <div className="div__lenguajesIcons div__pasatiemposContenedorParrafo">
+          <div className={`div__lenguajesIcons div__pasatiemposContenedorParrafo ${theme}`}>
             <PasatiemposParrafos />
           </div>
         </div>
